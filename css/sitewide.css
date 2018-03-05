@@ -1,0 +1,171 @@
+/* ------------------------------------------------------------ */
+/* imports and utilities */
+
+/* 3rd-party CSS files */
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Scale down images and embedded videos so they don't overflow their parents */
+img, object { max-width: 100%; }
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+/* 
+div, main, article, section, aside, hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+/* ------------------------------------------------------------ */
+/* start project-specifc styles below this line */
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #061C37;
+	background-color: #1E4297;
+	background: url('../img/background.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. 
+	If you have more than one container, you are probably doing
+	something wrong. 	
+*/
+.contain {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
+	height: auto;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain2 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
+	height: 1500px;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain3 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
+	height: 2400px;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain4 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
+	height: 1800px;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain5 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
+	height: 1400px;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+#mainpic h1
+{
+position:absolute;
+text-align:right;
+
+font-size:30px;
+color:#FFF;	
+left:550px;
+top:100px;
+}
+
+#mainpic
+{
+background-image:url(../img/mainpicr.png);
+background-repeat:no-repeat;
+width: 870px;
+height: 452px;
+position: center center;	
+}
+
+.lightblue
+{
+color:#B1C6FC		
+}
+
+.topnav {
+    background-color: #061C37;
+    overflow: hidden;
+    width: 870px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #B1C6FC;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.allpages {
+	 width: 100%;
+	 height: auto;
+	 padding: 10px;
+}
+
+a {
+	all: unset;
+}
+
+.margin {
+	margin-left: auto;
+	margin-bottom: auto;
+}
