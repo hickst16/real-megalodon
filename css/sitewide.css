@@ -63,7 +63,7 @@ body {
 	margin-bottom: 1em;
 	margin-left: auto;
 	width: 940px;
-	height: 1500px;
+	height: 1350px;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -99,6 +99,18 @@ body {
 	margin-bottom: 1em;
 	margin-left: auto;
 	width: 940px;
+	height: 1350px;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain6 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 940px;
 	height: 1400px;
 	padding: 2em;
 	border: 5px solid white;
@@ -109,7 +121,6 @@ body {
 {
 position:absolute;
 text-align:right;
-
 font-size:30px;
 color:#FFF;	
 left:550px;
