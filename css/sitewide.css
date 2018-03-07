@@ -30,14 +30,14 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
-	font: 12px Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-family: 'Teko';
+	font-size: 28px;
 	color: #061C37;
 	background-color: #1E4297;
 	background: url('../img/background.jpg');
 	background-position: center center;
 	background-size: cover;
-	background-attachment: fixed; 
+	background-attachment: fixed;
 }
 
 /*	Generally, you will only want one container element in
@@ -50,7 +50,7 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
+	width: 990px;
 	height: auto;
 	padding: 2em;
 	border: 5px solid white;
@@ -62,8 +62,8 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
-	height: 1350px;
+	width: 990px;
+	height: auto;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -74,8 +74,8 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
-	height: 2400px;
+	width: 990px;
+	height: auto;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -86,8 +86,8 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
-	height: 1800px;
+	width: 990px;
+	height: auto;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -98,8 +98,8 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
-	height: 1350px;
+	width: 990px;
+	height: auto;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -110,8 +110,32 @@ body {
 	margin-right: auto;
 	margin-bottom: 1em;
 	margin-left: auto;
-	width: 940px;
-	height: 1400px;
+	width: 990px;
+	height: auto;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain7 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 990px;
+	height: auto;
+	padding: 2em;
+	border: 5px solid white;
+	background-color: white;
+}
+
+.contain8 {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 990px;
+	height: auto;
 	padding: 2em;
 	border: 5px solid white;
 	background-color: white;
@@ -180,3 +204,15 @@ a {
 	margin-left: auto;
 	margin-bottom: auto;
 }
+
+.marginlivya {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.textalign {
+	text-align: left;
+}
+
+
+
